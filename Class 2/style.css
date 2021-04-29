@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    padding: 10px;
+    border: 15px solid rgb(64, 187, 224);
+}
+
+
+.text{
+    color: red;
+    padding: 25px;
+    border: 15px solid turquoise;
+}
+
+#heading{
+    color: red;
+}
