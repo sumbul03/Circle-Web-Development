@@ -1,0 +1,26 @@
+.first-div{
+    background-color: sienna;
+    /* position: relative;
+    top: 10%; */
+}
+
+
+.second-div{
+    background-color: slateblue;
+    /* position: absolute;
+    top: 10%; */
+    position: sticky;
+    top: 10px; 
+    left: 10px;
+}
+
+.third-div{
+    background-color: springgreen;
+    /* position: fixed;
+    top: 20%; */
+}
+.fourth-div {
+    background-color: tomato;
+    /* position: static; */
+
+}
