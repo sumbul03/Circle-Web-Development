@@ -1,5 +1,8 @@
 .first-div{
     background-color: sienna;
+    color: wheat;
+    text-shadow: 5px 3px violet;
+    font-size: x-large;
     /* position: relative;
     top: 10%; */
 }
