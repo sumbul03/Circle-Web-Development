@@ -6,25 +6,27 @@
     /* position: relative;
     top: 10%; */
 }
-
+/* decendant selector css combinator */
 .first-div p {
     font-size: x-large;
     color: red;
     text-decoration: underline;
 }
 
+/* child selector css combinator */
 .second-div > p {
-    font-size: x-large;
+    font-size: 32px;
     color: rgb(255, 0, 119);
     text-decoration: dashed;
 }
 
+/* immediate/adjacent sibling css combinator */
 .first-div + p {
     font-size: xx-large;
     color: rgb(9, 255, 0);
     text-decoration: line-through;
 }
-
+/* general sibling combinator */
 .second-div ~ p {
     font-size: large;
     color: rgb(75, 61, 197);
