@@ -1,0 +1,45 @@
+.first-div{
+    background-color: sienna;
+    color: wheat;
+    /* text-shadow: 5px 3px violet;
+    font-size: x-large; */
+    /* position: relative;
+    top: 10%; */
+}
+
+.first-div p {
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+}
+
+.second-div > p {
+    font-size: x-large;
+    color: rgb(255, 0, 119);
+    text-decoration: dashed;
+}
+
+.first-div + p {
+    font-size: xx-large;
+    color: rgb(9, 255, 0);
+    text-decoration: line-through;
+}
+
+.second-div ~ p {
+    font-size: large;
+    color: rgb(75, 61, 197);
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+
+.third-div{
+    background-color: springgreen;
+    /* position: fixed;
+    top: 20%; */
+}
+.fourth-div {
+    background-color: tomato;
+    /* position: static; */
+
+}
