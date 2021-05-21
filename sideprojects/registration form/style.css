@@ -1,0 +1,19 @@
+body {
+    background-color: #dad6d6;
+}
+
+.heading {
+    padding: 20px;
+    margin: 40px 30px;
+    border: 2px solid #d3cfcf;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+.button {
+    text-align: center;
+}
+.btn {
+    color: white;
+}
