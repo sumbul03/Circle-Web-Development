@@ -1,0 +1,284 @@
+body, html {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#list li {
+  float: left;
+  margin: auto;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+#list li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #13267e;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+}
+
+li {
+  float: left;
+  margin: auto;
+  font-size: 23px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.about-section, .skills-section {
+  margin: 5% 10%;
+  padding: 15px;
+  text-align: center;
+  font-style: oblique;
+  line-height: 2em;
+}
+
+.portfolio-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/drop.gif);
+}
+
+.hire-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/particles.gif);
+  margin: 5% 10%;
+  padding: 15px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.hire-section h2 {
+  font-size: 60px;
+  margin: 5% 10%;
+  padding: 40px;
+  letter-spacing: 0.2em;
+  font-family: "Pattaya", sans-serif;
+  color: #13267e;
+  text-align: center;
+}
+
+.about-section h1, .skills-section h1 {
+  font-size: 60px;
+  letter-spacing: 0.2em;
+  padding: 40px;
+  font-family: "Pattaya", sans-serif;
+  color: #13267e;
+}
+
+.portfolio-section h1 {
+  font-size: 60px;
+  letter-spacing: 0.2em;
+  padding: 40px;
+  font-family: "Pattaya", sans-serif;
+  color: #13267e;
+  margin: 5% 10%;
+}
+
+h3 {
+  font-size: 60px !important;
+  letter-spacing: 0.2em;
+  font-family: "Pattaya", sans-serif;
+  color: #474444;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: #13267e;
+          text-decoration-color: #13267e;
+  padding: 40px;
+}
+
+.portfolio-section h1 {
+  font-size: 60px;
+  letter-spacing: 0.2em;
+  font-family: "Pattaya", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+img {
+  border: 5px solid #58595e;
+}
+
+.portfolio-section .box {
+  display: inline;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+.portfolio-section .box1 {
+  display: inline;
+  padding: 10px;
+}
+
+.portfolio-section h2 {
+  margin-left: 2%;
+  margin-top: -2px;
+  color: white;
+  padding: 10px;
+}
+
+.portfolio-section span {
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: -40px;
+}
+
+.about-section p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-icons img {
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button a {
+  color: white;
+}
+
+.button a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px red;
+}
+
+label {
+  font-weight: bold;
+}
+
+.card {
+  width: 500px;
+  margin: auto;
+  border: 5px groove darkblue !important;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.gallery {
+  margin: 20px 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #13267e;
+  color: white;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+textarea {
+  height: 200px;
+}
+/*# sourceMappingURL=styles.css.map */

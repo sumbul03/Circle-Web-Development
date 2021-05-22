@@ -1,0 +1,283 @@
+$font-body : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-heading: 'Pattaya', sans-serif;
+$heading-size: 60px;
+$heading-color: #13267e;
+$heading-padding: 40px;
+$heading-margin: 5% 10%;
+
+
+body,html {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: $font-body;
+
+}
+
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+#list  li{
+    float: left;
+    margin: auto;
+    font-size: 27px;
+    font-weight: bolder;
+}
+ 
+#list li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  
+
+} 
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(19, 38, 126);
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 2;
+  }
+  li{
+      float: left;
+      margin: auto;
+      font-size: 23px;
+  }
+   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+ 
+  }
+
+  
+.about-section, .skills-section{
+    margin: $heading-margin;
+    padding: 15px;
+    text-align: center;
+    font-style: oblique;
+    line-height: 2em;
+}
+.portfolio-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/drop.gif);
+}
+
+.hire-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/particles.gif);
+    margin: $heading-margin;
+    padding: 15px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.hire-section h2 {
+    font-size: $heading-size;
+    margin: $heading-margin;
+    padding: $heading-padding;
+    letter-spacing: 0.2em;
+    font-family: $font-heading;
+    color: $heading-color;
+    text-align: center;
+}
+.about-section h1, .skills-section h1{
+    font-size: $heading-size;
+    letter-spacing: 0.2em;
+    padding: $heading-padding;
+    font-family: $font-heading;
+    color: $heading-color;
+    
+}
+.portfolio-section h1 {
+        font-size: $heading-size;
+        letter-spacing: 0.2em;
+        padding: $heading-padding;
+        font-family: $font-heading;
+        color: $heading-color;
+        margin: $heading-margin;    
+}
+
+h3{
+    font-size: $heading-size !important;
+    letter-spacing: 0.2em;
+    font-family: $font-heading;
+    color: rgb(71, 68, 68);
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: $heading-color;
+    padding: $heading-padding;
+}
+
+
+.portfolio-section h1 {
+    font-size: $heading-size;
+    letter-spacing: 0.2em;
+    font-family: $font-heading;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    border: 5px solid rgb(88, 89, 94);
+}
+
+.portfolio-section .box {
+    display: inline;
+    margin: 20px 30px;
+    padding: 10px;
+    
+
+}
+.portfolio-section .box1 {
+    display: inline;
+    padding: 10px; 
+
+}
+.portfolio-section h2 {
+    margin-left: 2%;
+    margin-top: -2px;
+    color: white;
+    padding: 10px;
+
+}
+.portfolio-section span{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.about-section p {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.social-icons img{
+    width: 200px;
+    height: 200px;
+    border: none;
+    
+}
+.social-icons {
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.container {
+    border-radius: 5px;
+
+    padding: 20px;
+  }
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    font-size: 20px;;
+  }
+.button a {
+      color: white;
+  }
+
+.button a:hover {
+      text-decoration: none;
+      color:white;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px red;
+
+  }
+label {
+    font-weight: bold;
+}
+.card {
+      width: 500px;
+      margin: auto;
+      border: 5px groove darkblue!important;
+
+  }
+.card-img-top
+{
+    width: 100%;
+}
+
+.gallery {
+    margin: 20px 30px;
+
+   }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+footer {
+      background-color: $heading-color;
+      color: white;
+  }
+  
+.container-fluid {
+      padding: 0px !important;
+  }
+  textarea {
+    height:200px;
+  }
