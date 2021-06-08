@@ -1,0 +1,42 @@
+body,html{
+    margin: auto;
+    
+}
+
+.container {
+    max-width: 50%;
+}
+.form-group > input {
+    border: 5px solid black;
+    padding: 20px;
+    
+}
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.text-height {
+    line-height: 5.2;
+    text-align: center;
+}
+.calc-buttons {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.operators {
+    padding: 6px 20px 10px 40px;
+}
+.operators > button {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.operators > button:hover {
+    transform: scale(1.5);
+}
+.output {
+    
+    border:5px solid blue;
+    padding: 20px;
+}
